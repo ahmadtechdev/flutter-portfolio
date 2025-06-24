@@ -50,7 +50,7 @@ class StaticUtils {
   ];
 
   static const String resume =
-      'https://drive.google.com/file/d/1OC0U1UCiLj7J-1iiAEea-7Ba2bSDTN5p/view?usp=sharing';
+      'https://drive.google.com/file/d/1Ig_i_7chMasCbW2R3SLX-K3cfIPwzgfr/view?usp=sharing';
 
   static const String gitHub = 'https://github.com/ahmadtechdev';
 }

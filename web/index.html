@@ -1,112 +1,122 @@
 <!DOCTYPE html>
-<html>
-
+<html lang="en">
 <head>
-  <!--
-    If you are serving your web app in a path other than the root, change the
-    href value below to reflect the base path you are serving from.
-
-    The path provided below has to start and end with a slash "/" in order for
-    it to work correctly.
-
-    Fore more details:
-    * https://developer.mozilla.org/en-US/docs/Web/HTML/Element/base
-  -->
   <base href="/">
-  
+
+  <!-- Essential Meta Tags -->
   <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta content="IE=Edge" http-equiv="X-UA-Compatible">
-  <meta name="description" content="A Self taught flutter developer, technical writer and open source contributor.">
+
+  <!-- SEO Meta Tags -->
+  <meta name="description" content="Ahmad Tech Dev - Professional Flutter Developer, Technical Writer, and Open Source Contributor. Expertise in mobile app development, web development, and technical documentation.">
+  <meta name="keywords" content="Ahmad Tech Dev, Flutter Developer, Technical Writer, Open Source, Mobile App Development, Web Development, Software Engineer">
+  <meta name="author" content="Ahmad Tech Dev">
+
+  <!-- Open Graph Meta Tags for Social Media -->
+  <meta property="og:title" content="Ahmad Tech Dev - Flutter Developer & Technical Writer">
+  <meta property="og:description" content="Professional Flutter Developer, Technical Writer, and Open Source Contributor specializing in mobile and web development.">
+  <meta property="og:type" content="website">
+  <meta property="og:url" content="https://ahmadtechdev.web.app/">
+  <meta property="og:image" content="data:image/jpeg;base64,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">
+
+  <!-- Twitter Card Meta Tags -->
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:title" content="Ahmad Tech Dev - Flutter Developer & Technical Writer">
+  <meta name="twitter:description" content="Professional Flutter Developer, Technical Writer, and Open Source Contributor specializing in mobile and web development.">
+  <meta name="twitter:image" content="data:image/jpeg;base64,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">
 
   <!-- iOS meta tags & icons -->
   <meta name="apple-mobile-web-app-capable" content="yes">
   <meta name="apple-mobile-web-app-status-bar-style" content="black">
-  <meta name="apple-mobile-web-app-title" content="folio">
+  <meta name="apple-mobile-web-app-title" content="Ahmad Tech Dev">
   <link rel="apple-touch-icon" href="icons/Icon-192.png">
+
+
+  <meta name="google-site-verification" content="oaI0Wnw2Y5FEcLf9GcW7I-jo8JuKaJdX5VxpZyVY-PQ" />
+
 
   <!-- Favicon -->
   <link rel="icon" type="image/png" href="favicon.png" />
 
-  <title>Ahmad</title>
+  <title>Ahmad Tech Dev | Flutter Developer & Technical Writer</title>
   <link rel="manifest" href="manifest.json">
+  <link rel="canonical" href="https://ahmadtechdev.web.app/" />
 
+
+  <!-- Your existing styles -->
   <style>
     .lds-ripple {
-      display: inline-block;
-      position: relative;
-      width: 80px;
-      height: 80px;
+        display: inline-block;
+        position: relative;
+        width: 80px;
+        height: 80px;
     }
 
     .lds-ripple div {
-      background-color: #e64230;
-      position: absolute;
-      border: 4px solid #fff;
-      opacity: 1;
-      border-radius: 50%;
-      animation: lds-ripple 1s cubic-bezier(0, 0.2, 0.8, 1) infinite;
+        background-color: #e64230;
+        position: absolute;
+        border: 4px solid #fff;
+        opacity: 1;
+        border-radius: 50%;
+        animation: lds-ripple 1s cubic-bezier(0, 0.2, 0.8, 1) infinite;
     }
 
     .lds-ripple div:nth-child(2) {
-      animation-delay: -0.5s;
+        animation-delay: -0.5s;
     }
 
     @keyframes lds-ripple {
-      0% {
-        top: 36px;
-        left: 36px;
-        width: 0;
-        height: 0;
-        opacity: 1;
-      }
+        0% {
+            top: 36px;
+            left: 36px;
+            width: 0;
+            height: 0;
+            opacity: 1;
+        }
 
-      100% {
-        top: 0px;
-        left: 0px;
-        width: 72px;
-        height: 72px;
-        opacity: 0;
-      }
+        100% {
+            top: 0px;
+            left: 0px;
+            width: 72px;
+            height: 72px;
+            opacity: 0;
+        }
     }
 
     .container {
-      height: 100%;
+        height: 100%;
     }
 
     .center {
-      margin: 0;
-      position: absolute;
-      top: 50%;
-      left: 50%;
-      -ms-transform: translate(-50%, -50%);
-      transform: translate(-50%, -50%);
+        margin: 0;
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        -ms-transform: translate(-50%, -50%);
+        transform: translate(-50%, -50%);
     }
   </style>
-
 </head>
 
 <body>
-
-
-  <div class="container">
-    <div class="center">
-      <div class="lds-ripple">
-        <div></div>
-        <div></div>
-      </div>
+<div class="container">
+  <div class="center">
+    <div class="lds-ripple">
+      <div></div>
+      <div></div>
     </div>
   </div>
-  <!-- This script installs service_worker.js to provide PWA functionality to
-       application. For more information, see:
-       https://developers.google.com/web/fundamentals/primers/service-workers -->
-  <script>
-    if ('serviceWorker' in navigator) {
-      window.addEventListener('flutter-first-frame', function () {
-        navigator.serviceWorker.register('flutter.js');
-      });
-    }
-  </script>
-  <script src="flutter_bootstrap.js" type="application/javascript"></script>
-</body>
+</div>
 
+<!-- Service Worker Registration -->
+<script>
+  if ('serviceWorker' in navigator) {
+      window.addEventListener('flutter-first-frame', function () {
+          navigator.serviceWorker.register('flutter.js');
+      });
+  }
+</script>
+<script src="flutter_bootstrap.js" type="application/javascript"></script>
+</body>
 </html>
