@@ -4,6 +4,7 @@ class WorkUtils {
   static const List<String> logos = [
     StaticUtils.university,
     StaticUtils.journeyOnline,
+    StaticUtils.ridelo,
     // StaticUtils.dsc,
     // StaticUtils.sastaticket,
   ];
@@ -11,6 +12,7 @@ class WorkUtils {
   static const List<String> communityLinks = [
     "https://www.numl.edu.pk/",
     "https://www.journeyonline.pk/",
+    "https://ridelo.asia/",
     // "https://dsc.community.dev/comsats-university-islamabad/",
     // "https://sastaticket.pk/"
   ];

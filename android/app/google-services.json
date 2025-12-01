@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "637517842579",
+    "project_id": "ahmadtechdevweb",
+    "storage_bucket": "ahmadtechdevweb.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:637517842579:android:95df6ce32b6ec21c78e566",
+        "android_client_info": {
+          "package_name": "com.hmz.folio"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCNoxOJXR1BospW5qAyu9x9fIzMKY1-O2Y"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

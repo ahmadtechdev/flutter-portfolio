@@ -12,15 +12,14 @@ class StaticUtils {
 
   // photos
   static const String mobilePhoto = 'assets/photos/mobile1.png';
-  static const String coloredPhoto = 'assets/photos/colored.png';
+  static const String coloredPhoto = 'assets/photos/colored1.jpeg';
   static const String blackWhitePhoto = 'assets/photos/black-white.png';
 
   // work
   static const String dsc = 'assets/work/dsc.png';
-  static const String sastaticket = 'assets/work/st.png';
   static const String university = 'assets/work/numl.png';
   static const String journeyOnline = 'assets/work/jo logo.png';
-  static const String fullterIsb = 'assets/work/flutterIsl.png';
+  static const String ridelo = 'assets/work/ridelo.png';
 
   // services
   static const String webDev = 'assets/services/web.png';
@@ -50,7 +49,7 @@ class StaticUtils {
   ];
 
   static const String resume =
-      'https://drive.google.com/file/d/1Ig_i_7chMasCbW2R3SLX-K3cfIPwzgfr/view?usp=sharing';
+      'https://drive.google.com/file/d/1Je89KhkjcJmYQFJEFUpZjiFXfznvHnKI/view?usp=sharing';
 
   static const String gitHub = 'https://github.com/ahmadtechdev';
 }

@@ -9,8 +9,9 @@ void openURL(String url) => launchUrl(
 const kTools = [
   "Flutter",
   "Dart",
-  "Python",
+  "Laravel",
   "Php",
+  "Python",
   "JavaScript",
   "Java",
   "C++",

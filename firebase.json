@@ -1,17 +1,1 @@
-{
-  "hosting": {
-    "site": "ahmadtechdev",
-    "public": "build/web",
-    "ignore": [
-      "firebase.json",
-      "**/.*",
-      "**/node_modules/**"
-    ],
-    "rewrites": [
-      {
-        "source": "**",
-        "destination": "/index.html"
-      }
-    ]
-  }
-}
+{"hosting":{"site":"ahmadtechdev","public":"build/web","ignore":["firebase.json","**/.*","**/node_modules/**"],"rewrites":[{"source":"**","destination":"/index.html"}]},"flutter":{"platforms":{"android":{"default":{"projectId":"ahmadtechdevweb","appId":"1:637517842579:android:95df6ce32b6ec21c78e566","fileOutput":"android/app/google-services.json"}},"dart":{"lib/firebase_options.dart":{"projectId":"ahmadtechdevweb","configurations":{"android":"1:637517842579:android:95df6ce32b6ec21c78e566","ios":"1:637517842579:ios:6bcf429071d0019878e566","web":"1:637517842579:web:690ed3b6526eb50d78e566","windows":"1:637517842579:web:535c72045d1c8ce778e566"}}}}}}
