@@ -37,6 +37,7 @@ class StaticUtils {
     "https://img.icons8.com/metro/100/ffffff/linkedin.png",
     "https://img.icons8.com/material-rounded/200/ffffff/github.png",
     "https://img.icons8.com/external-tal-revivo-shadow-tal-revivo/200/external-level-up-your-coding-skills-and-quickly-land-a-job-logo-shadow-tal-revivo.png"
+    "https://img.icons8.com/?size=100&id=_H27C1YMyU_5&format=png&color=000000"
   ];
 
   static const List<String> socialLinks = [
@@ -46,10 +47,11 @@ class StaticUtils {
     "https://linkedin.com/in/ahmad-razaa",
     "https://github.com/ahmadtechdev",
     "https://leetcode.com/u/ahmadrazaa/"
+    "https://www.researchgate.net/profile/Ahmad-Ali-258"
   ];
 
   static const String resume =
-      'https://drive.google.com/file/d/1Je89KhkjcJmYQFJEFUpZjiFXfznvHnKI/view?usp=sharing';
+      'https://drive.google.com/file/d/1MfY1DF-M14Crgiq_mWO1QnT240XFBULP/view?usp=sharing';
 
   static const String gitHub = 'https://github.com/ahmadtechdev';
 }
