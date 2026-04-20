@@ -20,6 +20,7 @@ class StaticUtils {
   static const String university = 'assets/work/numl.png';
   static const String journeyOnline = 'assets/work/jo logo.png';
   static const String ridelo = 'assets/work/ridelo.png';
+  static const String upwork = 'assets/work/upwork.png';
 
   // services
   static const String webDev = 'assets/services/web.png';
@@ -30,21 +31,22 @@ class StaticUtils {
   static const String openSource = 'assets/services/open.png';
   static const String openSourceBlack = 'assets/services/open_b.png';
 
-  static const List<String> socialIconURL = [
-    "https://img.icons8.com/metro/100/ffffff/facebook-new--v2.png",
-    "https://img.icons8.com/ios-glyphs/200/ffffff/instagram-new.png",
-    "https://img.icons8.com/?size=200&id=VlBwFtdwgxko&format=png&color=ffffff",
-    "https://img.icons8.com/metro/100/ffffff/linkedin.png",
-    "https://img.icons8.com/material-rounded/200/ffffff/github.png",
-    "https://img.icons8.com/external-tal-revivo-shadow-tal-revivo/200/external-level-up-your-coding-skills-and-quickly-land-a-job-logo-shadow-tal-revivo.png"
-  ];
+static const List<String> socialIconURL = [
+  "https://img.icons8.com/material-rounded/96/ffffff/facebook-new.png",
+  "https://img.icons8.com/material-rounded/96/ffffff/instagram-new.png",
+  "https://img.icons8.com/material-rounded/96/ffffff/linkedin.png",
+  "https://img.icons8.com/material-rounded/96/ffffff/github.png",
+  "https://img.icons8.com/ios-filled/96/ffffff/upwork.png",
+  "https://img.icons8.com/?size=100&id=PZknXs9seWCp&format=png&color=000000" // Ye original logo hai
+];
 
   static const List<String> socialLinks = [
     "https://www.facebook.com/ahmadtechdev/",
     "https://www.instagram.com/ahmadtechdev/",
-    "https://x.com/Ahmad7253781",
+    
     "https://linkedin.com/in/ahmad-razaa",
     "https://github.com/ahmadtechdev",
+    "https://upwork.com/freelancers/~01c55012053a4ec3b9",
     "https://leetcode.com/u/ahmadrazaa/"
   ];
 

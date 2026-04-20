@@ -2,6 +2,7 @@ class AboutUtils {
   static const String aboutMeHeadline =
       'I\'m Ahmad Raza Ali, a passionate Flutter Developer and published researcher who loves turning ideas into real-world mobile applications.';
 
-  static const String aboutMeDetail =
-      'I graduated as a Gold Medalist in Computer Science from NUML University (2020-2024), and since then, I\'ve been on an exciting journey building mobile apps that people actually use! I specialize in Flutter development and have launched 7+ live apps on the Play Store—from ride-hailing platforms like Ridelo with its innovative Pink Ride feature, to comprehensive travel booking apps integrating major airlines and payment gateways. At Journey Online, I work on enterprise-level solutions, while also freelancing and exploring creative projects. My FYP project, EnergicView, earned IGNITE funding and is now published in an IEEE conference. I\'m passionate about clean code, seamless user experiences, and constantly learning new technologies. Whether it\'s integrating complex APIs, building IoT solutions, or creating apps that solve real problems—I love the challenge of bringing innovative ideas to life!';
+static const String aboutMeDetail =
+    'As a Gold Medalist and Flutter specialist, I’ve launched 15+ live apps, ranging from ride-hailing platforms like Ridelo to complex travel booking systems. My work, including the IGNITE-funded "EnergicView" published at IEEE, is built on clean architecture and high performance. '
+    'Currently, as a Rising Talent on Upwork, I bridge the gap between creative ideas and production-ready solutions for global clients. Whether it’s building IoT systems, integrating complex APIs, or leading enterprise-level projects at Journey Online—I am driven by clean code and delivering real-world impact. Let’s turn your vision into a scalable reality.';
 }
