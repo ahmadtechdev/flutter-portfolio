@@ -1,4 +1,6 @@
 class ProjectUtils {
+  static const List<int> featuredIndices = [0, 1, 2,  4, 5,9];
+
   static const List<String> banners = [
 
     "assets/projects/costex.png",
@@ -91,4 +93,44 @@ class ProjectUtils {
     "https://github.com/ahmadtechdev/energicview",
 
   ];
+
+  static List<ProjectData> get allProjects => List<ProjectData>.generate(
+        titles.length,
+        (index) => ProjectData(
+          banner: banners[index],
+          icon: icons[index],
+          title: titles[index],
+          description: description[index],
+          link: links[index],
+        ),
+      );
+
+  static List<ProjectData> get featuredProjects => featuredIndices
+      .where((index) => index >= 0 && index < titles.length)
+      .map(
+        (index) => ProjectData(
+          banner: banners[index],
+          icon: icons[index],
+          title: titles[index],
+          description: description[index],
+          link: links[index],
+        ),
+      )
+      .toList();
+}
+
+class ProjectData {
+  final String banner;
+  final String icon;
+  final String title;
+  final String description;
+  final String link;
+
+  const ProjectData({
+    required this.banner,
+    required this.icon,
+    required this.title,
+    required this.description,
+    required this.link,
+  });
 }
