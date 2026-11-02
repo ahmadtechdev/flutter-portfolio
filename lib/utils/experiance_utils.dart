@@ -1,41 +1,36 @@
 class ExperienceUtils {
   static const List<String> companyLogos = [
-    'assets/work/ridelo.png',
+    'assets/work/stfa.png',
     'assets/work/jo logo.png',
+    'assets/work/ridelo.png',
     'assets/work/upwork.png',
-    'assets/work/freelancer.png',
-
   ];
 
   static const List<String> experienceTitles = [
-    "Ridelo",
+    "STFA Construction",
     "Journey Online",
-    "Upwork",
-    "Freelancer",
-    
+    "Ridelo",
+    "Freelance / Upwork",
   ];
 
   static const List<String> experienceRoles = [
+    "Operations & IT Officer",
     "Flutter Developer",
-    "Flutter Developer",
-    "Upwork",
-    "Self-Employed",
-    
+    "Mobile Application Developer",
+    "Full-Stack Developer",
   ];
 
   static const List<String> experienceDurations = [
-    "Jul 2025 - Present",
-    "Nov 2024 - Present",
-    "Apr 2026 - Present",
+    "Feb 2026 - Present",
+    "Nov 2024 - Jun 2026",
+    "Jul 2025 - Feb 2026",
     "Jul 2022 - Present",
-    
   ];
 
   static const List<String> experienceDescriptions = [
-    "Developed complete ride-hailing ecosystem with innovative Pink Ride feature and JazzCash payment integration. Built real-time tracking, driver-passenger matching algorithms, and comprehensive admin dashboards.",
-    "Developing high-performance, cross-platform mobile applications using Flutter. Focusing on clean code, maintainability, and seamless API integration for enhanced user experiences.",
-    "Awarded Rising Talent status. Delivering high-quality, scalable mobile and web solutions to global clients. Focused on efficient API integrations, clean architecture, and meeting rigorous project deadlines.",  
- 
-    "Delivered tailored web and mobile applications leveraging PHP, JavaScript, and advanced problem-solving techniques. Specialized in creating user-friendly, optimized systems for diverse global clients.",
-    ];
+    "Benghazi, Libya. Building a Power Apps canvas app on SharePoint to replace manual fuel/diesel tracking as the first phase of a department-wide automation initiative (Power Automate, Microsoft Fabric). Built and published STFA Smart Translator, an OCR-based real-time translation app on the Microsoft Store. Managing IT support, digital reporting, and data logging across on-site construction workflows.",
+    "Built enterprise travel booking platforms integrated with Sabre and airline APIs (Emirates, Fly Dubai, Air Blue). Implemented the AbhiPay payment gateway, automated voucher generation, and financial reporting modules. Shipped Ready Flights, One Roof, Evoucher, and Costex to the Play Store.",
+    "Launched two production apps, Ridelo (passenger) and Ridelo Driver, with real-time socket connections and ride matching. Delivered the Pink Ride women's safety feature and secure JazzCash payment workflows. Built the admin control panel and optimized live map tracking to reduce latency.",
+    "Upwork Rising Talent. Delivering cross-platform web and mobile applications in Flutter, Laravel, and JavaScript for international clients, from requirements to app-store release. Advising clients on modular architecture, database optimization, and API integrations.",
+  ];
 }

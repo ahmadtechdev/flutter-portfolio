@@ -10,9 +10,9 @@ const kTools = [
   "Flutter",
   "Dart",
   "Laravel",
-  "Php",
-  "Python",
+  "Firebase",
+  "Node.js",
   "JavaScript",
-  "Java",
-  "C++",
+  "MySQL",
+  "PHP",
 ];

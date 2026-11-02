@@ -4,31 +4,24 @@ class ServicesUtils {
   static const List<String> servicesIcons = [
     StaticUtils.appDev,
     StaticUtils.webDev,
-    StaticUtils.java,
-    StaticUtils.python,
+    StaticUtils.openSource,
+    StaticUtils.automation,
     StaticUtils.rapid,
   ];
 
   static const List<String> servicesTitles = [
     "Mobile App Development",
-    "Web Development",
-    "Java GUI",
-    "Python Development",
+    "Full-Stack Web Development",
+    "API & Payment Integrations",
+    "Business Automation",
     "Rapid Prototyping",
   ];
 
   static const List<String> servicesDescription = [
-    "Mobile Development (Flutter)\n- Android & iOS apps\n- Firebase integration\n- REST APIs\n- AI Chat Bots and more...!",
-    "Web Development (PHP, WordPress)\n- Custom PHP development\n- WordPress site creation\n- Responsive design\n- Plugin integration and more...!",
-    "Java GUI Development\n- Desktop applications\n- User-friendly interfaces\n- Database integration and more...!",
-    "Python Development\n- Basic tasks and assignments\n- Flask web apps\n- Problem-solving\n- Implementing computer vision models and more...!",
+    "Mobile Development (Flutter)\n- Android & iOS apps\n- Clean Architecture\n- Firebase & real-time features\n- Play Store & App Store release",
+    "Web Development (Laravel, Node.js)\n- Laravel & Livewire 3 apps\n- Node.js / Express.js APIs\n- MySQL database design\n- Admin panels & dashboards",
+    "Third-Party Integrations\n- Sabre & airline APIs\n- JazzCash & AbhiPay payments\n- Maps & live tracking\n- WebSockets & REST APIs",
+    "Microsoft Power Platform\n- Power Apps canvas apps\n- Power Automate flows\n- SharePoint & Microsoft Fabric\n- Digital reporting",
     "Rapid Prototype\n- Working MVP\n- Quick & Working prototype",
   ];
 }
-  // static const List<String> servicesDescription = [
-  //   "Android app development via Flutter\n- Splash Screen\n- Firebase Auth/Cloud\n- REST APIs\n- Maps integration and more...!",
-  //   "Modern UI/UX Designing\n- Adobe XD\n- Mobile & Web designs\n- Interactive UI designs\n- Responsiveness\n- Promo Videos and more..!",
-  //   "Rapid Prototype via Flutter\n- Working MVP\n- Quick & Working prototype",
-  //   "Technical Blog writing\n- Medium blogs\n- Soothing header images\n- SEO friendly\n- Researched topics and more..!",
-  //   "Open source GitHub Projects\n- Awesome README.md\n- Well documented\n- Header images and more...!",
-  // ];

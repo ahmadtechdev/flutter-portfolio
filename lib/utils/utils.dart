@@ -28,6 +28,7 @@ class StaticUtils {
   static const String appDev = 'assets/services/app.png';
   static const String rapid = 'assets/services/rapid.png';
   static const String python = 'assets/services/python.png';
+  static const String automation = 'assets/services/automation.png';
   static const String openSource = 'assets/services/open.png';
   static const String openSourceBlack = 'assets/services/open_b.png';
 
@@ -51,7 +52,7 @@ static const List<String> socialIconURL = [
   ];
 
   static const String resume =
-      'https://drive.google.com/file/d/1MfY1DF-M14Crgiq_mWO1QnT240XFBULP/view?usp=sharing';
+      'https://drive.google.com/file/d/1hrN4SGIo_UrBkEz8fzpjJTgQewKbo0CM/view?usp=sharing';
 
   static const String gitHub = 'https://github.com/ahmadtechdev';
 }

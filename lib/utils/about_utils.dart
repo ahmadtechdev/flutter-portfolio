@@ -13,9 +13,9 @@ class AboutUtils {
   }
 
   static const String aboutMeHeadline =
-      'I\'m Ahmad Raza Ali, a passionate Flutter Developer and published researcher who loves turning ideas into real-world mobile applications.';
+      'I\'m Ahmad Raza Ali, a Full-Stack Engineer specializing in Flutter and Laravel, with 3+ years of shipping production apps.';
 
-static const String aboutMeDetail =
-    'As a Gold Medalist and Flutter specialist, I’ve launched 15+ live apps, ranging from ride-hailing platforms like Ridelo to complex travel booking systems. My work, including the IGNITE-funded "EnergicView" published at IEEE, is built on clean architecture and high performance. '
-    'Currently, as a Rising Talent on Upwork, I bridge the gap between creative ideas and production-ready solutions for global clients. Whether it’s building IoT systems, integrating complex APIs, or leading enterprise-level projects at Journey Online—I am driven by clean code and delivering real-world impact. Let’s turn your vision into a scalable reality.';
+  static const String aboutMeDetail =
+      'I build cross-platform Flutter apps and Laravel backends for travel-tech, ride-hailing, and business SaaS. I\'ve built booking platforms integrated with Sabre and airline APIs (Emirates, Fly Dubai, Air Blue), real-time ride-hailing apps like Ridelo, and payment workflows with JazzCash and AbhiPay, with 15+ apps live on the Play Store. '
+      'I\'m a Gold Medalist in Computer Science from NUML and first author of an IEEE ICECE 2025 paper on EnergicView, an IGNITE-funded IoT energy monitoring system. Today I work as Operations & IT Officer at STFA Construction in Benghazi, automating business workflows with Power Apps and Power Automate, while delivering freelance projects for global clients. I\'m open to full-time engineering roles and relocation (UAE, KSA, Europe).';
 }

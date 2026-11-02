@@ -75,6 +75,11 @@ class _ExperienceCardState extends State<ExperienceCard> {
               Image.asset(
                 widget.companyLogo,
                 height: AppDimensions.normalize(30),
+                errorBuilder: (context, error, stackTrace) => Icon(
+                  Icons.business,
+                  size: AppDimensions.normalize(30),
+                  color: AppTheme.c!.primary,
+                ),
               ),
               Space.y!,
               Text(

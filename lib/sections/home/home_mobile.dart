@@ -85,28 +85,28 @@ class HomeMobile extends StatelessWidget {
                     AnimatedTextKit(
                       animatedTexts: [
                         TyperAnimatedText(
-                          ' Flutter Developer',
+                          ' Full-Stack Engineer',
                           speed: const Duration(milliseconds: 50),
                           textStyle: AppText.b1!.copyWith(
                             color: appProvider.isDark ? Colors.white : Colors.black,
                           ),
                         ),
                         TyperAnimatedText(
-                          ' Python ',
+                          ' Flutter & Laravel Developer',
                           speed: const Duration(milliseconds: 50),
                           textStyle: AppText.b1!.copyWith(
                             color: appProvider.isDark ? Colors.white : Colors.black,
                           ),
                         ),
                         TyperAnimatedText(
-                          ' Programmer Enthusiast',
+                          ' IEEE Published Author',
                           speed: const Duration(milliseconds: 50),
                           textStyle: AppText.b1!.copyWith(
                             color: appProvider.isDark ? Colors.white : Colors.black,
                           ),
                         ),
                         TyperAnimatedText(
-                          ' A friend :)',
+                          ' Gold Medalist in CS',
                           speed: const Duration(milliseconds: 50),
                           textStyle: AppText.b1!.copyWith(
                             color: appProvider.isDark ? Colors.white : Colors.black,
