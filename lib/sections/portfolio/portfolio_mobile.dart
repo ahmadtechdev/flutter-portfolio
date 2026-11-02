@@ -29,10 +29,8 @@ class _PortfolioMobileTabState extends State<PortfolioMobileTab> {
         CustomSectionHeading(
           text: _showAllProjects ? "\nPortfolio" : "\nFeatured Projects",
         ),
-        CustomSectionSubHeading(
-          text: _showAllProjects
-              ? "Swipe through all projects.\n\n"
-              : "Quick featured showcase for better speed.\n\n",
+        const CustomSectionSubHeading(
+          text: "Here are few samples of my previous work :)\n\n",
         ),
         AnimatedSwitcher(
           duration: const Duration(milliseconds: 450),
