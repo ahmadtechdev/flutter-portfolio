@@ -15,6 +15,7 @@ import 'package:universal_html/html.dart' as html;
 import 'package:flutter/material.dart';
 import 'package:folio/constants.dart';
 import 'package:folio/widget/arrow_on_top.dart';
+import 'package:folio/widget/whatsapp_button.dart';
 
 part 'widgets/_navbar_desktop.dart';
 part 'widgets/_mobile_drawer.dart';
@@ -42,6 +43,7 @@ class _MainPageState extends State<MainPage> {
           children: [
             const _Body(),
             const ArrowOnTop(),
+            const WhatsAppButton(),
             Responsive.isTablet(context) || Responsive.isMobile(context)
                 ? const _NavBarTablet()
                 : const _NavbarDesktop(),

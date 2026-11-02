@@ -28,9 +28,9 @@ class ExperienceUtils {
   ];
 
   static const List<String> experienceDescriptions = [
-    "Benghazi, Libya. Building a Power Apps canvas app on SharePoint to replace manual fuel/diesel tracking as the first phase of a department-wide automation initiative (Power Automate, Microsoft Fabric). Built and published STFA Smart Translator, an OCR-based real-time translation app on the Microsoft Store. Managing IT support, digital reporting, and data logging across on-site construction workflows.",
-    "Built enterprise travel booking platforms integrated with Sabre and airline APIs (Emirates, Fly Dubai, Air Blue). Implemented the AbhiPay payment gateway, automated voucher generation, and financial reporting modules. Shipped Ready Flights, One Roof, Evoucher, and Costex to the Play Store.",
-    "Launched two production apps, Ridelo (passenger) and Ridelo Driver, with real-time socket connections and ride matching. Delivered the Pink Ride women's safety feature and secure JazzCash payment workflows. Built the admin control panel and optimized live map tracking to reduce latency.",
-    "Self-Employed, Remote. Delivering cross-platform web and mobile applications in Flutter, Laravel, and JavaScript for international clients, from requirements to app-store release. Advising clients on modular architecture, database optimization, and API integrations.",
+    "Automating site workflows with Power Apps, SharePoint, and Power Automate, starting with fuel/diesel tracking. Built and published STFA Smart Translator, an OCR-based translation app on the Microsoft Store. Managing IT support and digital reporting.",
+    "Built enterprise travel booking platforms integrated with Sabre and airline APIs (Emirates, Fly Dubai, Air Blue). Implemented the AbhiPay payment gateway and financial reporting. Shipped Ready Flights, One Roof, Evoucher, and Costex.",
+    "Launched Ridelo and Ridelo Driver with real-time socket connections and ride matching. Delivered the Pink Ride women's safety feature, JazzCash payments, and the admin panel, and optimized live map tracking.",
+    "Delivering cross-platform web and mobile apps in Flutter, Laravel, and JavaScript for international clients, from requirements to app-store release. Advising on architecture, database optimization, and API integrations.",
   ];
 }

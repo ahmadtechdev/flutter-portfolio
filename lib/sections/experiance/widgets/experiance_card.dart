@@ -69,43 +69,46 @@ class _ExperienceCardState extends State<ExperienceCard> {
               ),
             ],
           ),
-          child: Column(
-            mainAxisAlignment: MainAxisAlignment.center,
-            children: [
-              Image.asset(
-                widget.companyLogo,
-                height: AppDimensions.normalize(30),
-                errorBuilder: (context, error, stackTrace) => Icon(
-                  Icons.business,
-                  size: AppDimensions.normalize(30),
-                  color: AppTheme.c!.primary,
+          child: FittedBox(
+            fit: BoxFit.scaleDown,
+            child: Column(
+              mainAxisAlignment: MainAxisAlignment.center,
+              children: [
+                Image.asset(
+                  widget.companyLogo,
+                  height: AppDimensions.normalize(30),
+                  errorBuilder: (context, error, stackTrace) => Icon(
+                    Icons.business,
+                    size: AppDimensions.normalize(30),
+                    color: AppTheme.c!.primary,
+                  ),
                 ),
-              ),
-              Space.y!,
-              Text(
-                widget.companyName,
-                style: AppText.b2b!.copyWith(
-                  color: appProvider.isDark ? Colors.white : Colors.black,
+                Space.y!,
+                Text(
+                  widget.companyName,
+                  style: AppText.b2b!.copyWith(
+                    color: appProvider.isDark ? Colors.white : Colors.black,
+                  ),
+                  textAlign: TextAlign.center,
                 ),
-                textAlign: TextAlign.center,
-              ),
-              Space.y1!,
-              Text(
-                widget.role,
-                style: AppText.b2!.copyWith(
-                  color: appProvider.isDark ? Colors.white54 : Colors.black87,
+                Space.y1!,
+                Text(
+                  widget.role,
+                  style: AppText.b2!.copyWith(
+                    color: appProvider.isDark ? Colors.white54 : Colors.black87,
+                  ),
+                  textAlign: TextAlign.center,
                 ),
-                textAlign: TextAlign.center,
-              ),
-              Space.y1!,
-              Text(
-                widget.duration,
-                style: AppText.l1!.copyWith(
-                  color: appProvider.isDark ? Colors.white38 : Colors.black54,
+                Space.y1!,
+                Text(
+                  widget.duration,
+                  style: AppText.l1!.copyWith(
+                    color: appProvider.isDark ? Colors.white38 : Colors.black54,
+                  ),
+                  textAlign: TextAlign.center,
                 ),
-                textAlign: TextAlign.center,
-              ),
-            ],
+              ],
+            ),
           ),
         ),
         back: Container(
@@ -128,12 +131,15 @@ class _ExperienceCardState extends State<ExperienceCard> {
           child: Column(
             mainAxisAlignment: MainAxisAlignment.center,
             children: [
-              Text(
-                widget.description,
-                style: AppText.l1!.copyWith(
-                  color: appProvider.isDark ? Colors.white54 : Colors.black87,
+              Flexible(
+                child: Text(
+                  widget.description,
+                  style: AppText.l1!.copyWith(
+                    color: appProvider.isDark ? Colors.white54 : Colors.black87,
+                  ),
+                  textAlign: TextAlign.center,
+                  overflow: TextOverflow.fade,
                 ),
-                textAlign: TextAlign.center,
               ),
             ],
           ),

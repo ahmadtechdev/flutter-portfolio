@@ -4,7 +4,7 @@ class ServicesUtils {
   static const List<String> servicesIcons = [
     StaticUtils.appDev,
     StaticUtils.webDev,
-    StaticUtils.openSource,
+    StaticUtils.api,
     StaticUtils.automation,
     StaticUtils.rapid,
   ];

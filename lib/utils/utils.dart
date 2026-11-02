@@ -20,7 +20,7 @@ class StaticUtils {
   static const String university = 'assets/work/numl.png';
   static const String journeyOnline = 'assets/work/jo logo.png';
   static const String ridelo = 'assets/work/ridelo.png';
-  static const String upwork = 'assets/work/upwork.png';
+  static const String stfa = 'assets/work/stfa.png';
 
   // services
   static const String webDev = 'assets/services/web.png';
@@ -29,6 +29,7 @@ class StaticUtils {
   static const String rapid = 'assets/services/rapid.png';
   static const String python = 'assets/services/python.png';
   static const String automation = 'assets/services/automation.png';
+  static const String api = 'assets/services/api.png';
   static const String openSource = 'assets/services/open.png';
   static const String openSourceBlack = 'assets/services/open_b.png';
 
@@ -55,6 +56,8 @@ static const List<String> socialIconURL = [
       'https://drive.google.com/file/d/1hrN4SGIo_UrBkEz8fzpjJTgQewKbo0CM/view?usp=sharing';
 
   static const String gitHub = 'https://github.com/ahmadtechdev';
+
+  static const String whatsApp = 'https://wa.me/923395000550';
 }
 
 class BodyUtils {
